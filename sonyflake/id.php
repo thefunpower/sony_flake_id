@@ -47,7 +47,9 @@ class id{
 	* ];
 	*/
 	public static function set($config){
-		self::$config = $config;
+		if(!self::$config){
+			self::$config = $config;	
+		}		
 	}
 
 }
