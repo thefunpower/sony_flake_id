@@ -1,0 +1,5 @@
+{
+    "require": {
+        "thefunpower/sony_flake_id": "dev-main"
+    }
+}

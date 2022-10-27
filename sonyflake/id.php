@@ -17,7 +17,7 @@ class id{
 	    $config = self::$config;
 	    $snowflake_obj = self::$snowflake_obj;
 	    $key = $center_id.$work_id;
-	    if(!$snowflake_obj[$key]){
+	    if(!isset($snowflake_obj[$key])){
 	        $redis_config = $config['redis'];
 	        $sony_flake  = $config['sony_flake'];
 	        $start_date  = $sony_flake['from_date']?:"2022-10-27"; 
