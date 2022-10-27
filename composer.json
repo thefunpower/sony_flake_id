@@ -1,0 +1,22 @@
+{
+    "name": "thefunpower/sony_flake_id",
+    "type": "library",
+    "description": "sony_flake_id",
+    "keywords": ["php"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "ken.sun",
+            "email": "kungfutime@foxmail.com" 
+        }
+    ],
+    "require": {
+        "php": ">=7.1", 
+        "godruoyi/php-snowflake": "^2.1"
+    }, 
+    "autoload": { 
+        "psr-4": {
+            "thefunpower\\sonyflake\\": "./sonyflake/"
+        }
+    }
+}
