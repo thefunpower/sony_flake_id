@@ -3,7 +3,7 @@
     "type": "library",
     "description": "用于生成订单号",
     "keywords": ["php"],
-    "license": "MIT",
+    "license": "Apache-2.0",
     "authors": [
         {
             "name": "kenken"
