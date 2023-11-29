@@ -22,3 +22,8 @@ thefunpower\sonyflake\id::set($config);
 ~~~
 thefunpower\sonyflake\id::create($center_id=0,$work_id=1)
 ~~~
+
+
+## License
+
+[Apache License 2.0](LICENSE)
